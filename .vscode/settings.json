@@ -1,3 +1,29 @@
+{
     "workbench.colorTheme": "Everforest Dark",
     "editor.fontFamily": "'0xProto', 'UDEV Gothic 35JPDOC'",
     "editor.fontSize": 14,
+    "editor.formatOnSave": true,
+    // Python設定
+    "ruff.configuration": "",
+    "ruff.nativeServer": true,
+    "ruff.lineLength": 120,
+    "ruff.lint.select": [
+        "C",
+        "E",
+        "F",
+        "W"
+    ],
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "never",
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll": "never",
+        "notebook.source.organizeImports": "explicit"
+    },
+}
