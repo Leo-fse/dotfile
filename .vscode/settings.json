@@ -4,6 +4,16 @@
     "editor.fontSize": 14,
     "editor.formatOnSave": true,
     // Python設定
+    "files.exclude": {
+        "**/*.egg-info": true,
+        ".gitpod.yml": true,
+        "LICENSE": true,
+        ".vscode/": true,
+        "**/__pycache__": true,
+        ".mypy_cache": true,
+        "coverage.xml": true,
+        ".pytest_cache": true
+    },
     "ruff.configuration": "",
     "ruff.nativeServer": true,
     "ruff.lineLength": 120,
