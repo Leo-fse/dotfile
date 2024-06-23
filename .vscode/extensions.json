@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        // git
+        "mhutchie.git-graph",
+        // python
+        "ms-python.python",
+        "charliermarsh.ruff",
+    ]
+}
